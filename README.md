@@ -1,9 +1,8 @@
 # 概要
-- ホストOSに`ollama`を直接インストールせず`ollama`サーバーと`open-webui`サーバーを同時に簡単に立ち上げるためのリポジトリ。
+- ホストOSに`ollama`を直接インストールせず`ollama`サーバーと`open-webui`サーバーをdockerで同時に立ち上げるためのリポジトリ。
 - gpt-4oで作成しました。
 - docker-compose化しました。
 - ポートを変更した場合は、`curl`コマンドのURLも適宜変更してください。
-- `docker-compose.yml`および`.env`ファイルの設定に基づいて、GPUが利用可能であることを確認してください（NVIDIAドライバが必要です）。
 - GPUメモリ8GBのWindows 11でWSLを使用し、phi-3とllama3.1モデルが問題なく動作することを確認しました。
 
 # 前提条件
